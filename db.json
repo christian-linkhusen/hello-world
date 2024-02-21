@@ -1,5 +1,5 @@
 {
-  [
+  "routeEntries": [
     {
       "request": "http://localhost:3000/hearingAids/alpha",
       "redirect": "http://localhost:3000/support/everyday-hearing-aid-use",
