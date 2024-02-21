@@ -1,26 +1,28 @@
-[
-  {
-    "request": "http://localhost:3000/hearingAids/alpha",
-    "redirect": "http://localhost:3000/support/everyday-hearing-aid-use",
-    "maintainPath": false,
-    "allPaths": false,
-    "maintainQueryString": false,
-    "allQueryStrings": false
-  },
-  {
-    "request": "http://localhost:3000/legal-disclaimer",
-    "redirect": "http://localhost:3000/legal",
-    "maintainPath": false,
-    "allPaths": true,
-    "maintainQueryString": false,
-    "allQueryStrings": false
-  },
-  {
-    "request": "http://www.localhost.local:3000",
-    "redirect": "http://localhost:3000",
-    "maintainPath": true,
-    "allPaths": true,
-    "maintainQueryString": false,
-    "allQueryStrings": false
-  }
-]
+{
+  [
+    {
+      "request": "http://localhost:3000/hearingAids/alpha",
+      "redirect": "http://localhost:3000/support/everyday-hearing-aid-use",
+      "maintainPath": false,
+      "allPaths": false,
+      "maintainQueryString": false,
+      "allQueryStrings": false
+    },
+    {
+      "request": "http://localhost:3000/legal-disclaimer",
+      "redirect": "http://localhost:3000/legal",
+      "maintainPath": false,
+      "allPaths": true,
+      "maintainQueryString": false,
+      "allQueryStrings": false
+    },
+    {
+      "request": "http://www.localhost.local:3000",
+      "redirect": "http://localhost:3000",
+      "maintainPath": true,
+      "allPaths": true,
+      "maintainQueryString": false,
+      "allQueryStrings": false
+    }
+  ]
+}
