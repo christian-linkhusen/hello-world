@@ -17,6 +17,14 @@
             "allQueryStrings": false
         },
         {
+            "request": "http://localhost:3000/redirect-all-maintain/*",
+            "redirect": "http://localhost:3000/Design-Guide",
+            "maintainPath": true,
+            "allPaths": false,
+            "maintainQueryString": false,
+            "allQueryStrings": false
+        },
+        {
             "request": "http://localhost:3000/legal-disclaimer",
             "redirect": "http://localhost:3000/legal",
             "maintainPath": false,
